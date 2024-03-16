@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Nova+Mono&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --font-family: "Nova Mono";
+  --ColorWhite: #ffffff;
+  --ColorBlack: #000000;
+}
+.container {
+  border-radius: 50px;
+  background: #e0e0e0;
+  box-shadow: -20px 20px 60px #bebebe, 20px -20px 60px #ffffff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 320px;
+  height: 200px;
+  padding: 20px;
+  font-size: 150px;
+  background-image: url(assets/relogio.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.counter {
+  font-size: 3.7rem;
+  text-align: center;
+  text-shadow: 2px 2px 2px black;
+  color: var(--ColorWhite);
+}
+.buttons {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-around;
+}
+.btn {
+  height: 30px;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  width: 30px;
+  margin-top: 10px;
+}
+.btn:active {
+  opacity: 0.9;
+  transform: translateY(-2px) scale(1.1);
+}
+
+
+#start {
+  border-radius: 50px;
+  background-image: url(assets/play.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 40px;
+  width: 40px;
+  transition: 1s ease;
+}
+#start:hover{
+    transform: rotate(100deg);
+    transition: 1s ease;
+}
+#stop {
+  border-radius: 50px;
+  background-image: url(assets/Pausa.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 40px;
+  width: 40px;
+  transition: 1s ease;
+}
+#stop:hover{
+    transform: rotate(180deg);
+    transition: 1s ease;
+}
+#reset {
+  border-radius: 50px;
+  background-image: url(assets/reiniciar.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 40px;
+  width: 40px;
+  transition: 1s ease;
+}
+#reset:hover{
+    transform: rotate(180deg);
+    transition: 1s ease;
+}
