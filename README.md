@@ -5,3 +5,5 @@ estruturas de descisão e arrow function.
    
 </p>
    <img src="assets/relogio.png" alt="imgRelogio" style = "height: 300px";/>
+
+   <p>© 2024 Calleone. All rights reserved</p>
