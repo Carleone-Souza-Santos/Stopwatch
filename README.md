@@ -1,5 +1,5 @@
 <img src = "https://github.com/Carleone-Souza-Santos/Portf-lio/blob/master/src/assets/imgUserjob.png?raw=true" alt="img user"/>
-<h1>Crônometro</h1>
+<h1>Stopwatch</h1>
 <h2>💻 Project</h2>
 
 <p>In this development, a lot of logic was applied with javascript.
